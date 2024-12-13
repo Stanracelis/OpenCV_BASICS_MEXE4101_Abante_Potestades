@@ -55,6 +55,10 @@ This is the step-by-step methodology for Extracting Contours for Analyzing Shape
 - Validate the method using metrics such as accuracy, precision, and recall for shape classification.
 - Test with diverse datasets to ensure robustness and generalization.
 
+### 9. Confusion Matrix
+After evaluating the model using test data, generate a confusion matrix to visualize the performance of the classifier in predicting the shape classes. This will help identify how often the model is confusing one class for another. The confusion matrix is plotted using Seaborn to analyze the accuracy of predictions in a visual format.
+![image](https://github.com/user-attachments/assets/e035779a-fbc3-4dd3-bfe9-bdf0c0bb86e2)
+
 
 ## Conclusion
 
@@ -274,9 +278,16 @@ for fn in uploaded.keys():
   plt.axis('off')
   plt.show()
 ```
-
-
-
+#### Analyzing shapes in chlidrens drawing (triangle)
+![image](https://github.com/user-attachments/assets/485d81e3-1939-4977-a418-363eaa3f0ffe)
+#### Analyzing shapes in chlidrens drawing (rectangle)
+![image](https://github.com/user-attachments/assets/53d65e36-0678-4c9b-95af-bb6fd373141f)
+#### Analyzing shapes in chlidrens drawing (square)
+![image](https://github.com/user-attachments/assets/ecbdfbed-e8f4-4dc3-8ea9-8d2a73ad5fe6)
+#### Analyzing shapes in chlidrens drawing (ellipse)
+![image](https://github.com/user-attachments/assets/ea25ce87-7159-4860-a615-01899d7c9c0b)
+#### Analyzing shapes in chlidrens drawing (circle)
+![image](https://github.com/user-attachments/assets/82fae4d1-299a-41cf-a165-b90795a3943b)
 
 ### Video Demonstration:
 https://drive.google.com/file/d/1B6CUIUTUZzZWW-h_52ndpdoK4DHrArgl/view?usp=sharing
