@@ -9,5 +9,70 @@ Analyzing children's hand-drawn shapes has significant applications in computer 
 
 This project aims to analyze children's hand-drawn shapes using contour detection techniques. Contours are used to extract shape features, enabling the identification and categorization of geometric and irregular shapes. The project employs OpenCV for preprocessing, contour extraction, and feature analysis. Expected outcomes include a robust method for classifying shapes, insights into drawing tendencies, and a platform for further developmental studies. By focusing on contour-based techniques, the project provides a cost-effective and scalable solution for analyzing visual data. The approach emphasizes accuracy and adaptability, making it suitable for diverse applications in education and research.
 
-## Project Methods
-### Data Collection:
+## Methodology
+
+This is the step-by-step methodology for Extracting Contours for Analyzing Shape Features in Children's Hand-drawn Shapes in google colab:
+
+### Project Methods
+#### 1. Set Up the Environment:
+
+- Install necessary libraries: OpenCV, NumPy, and other required Python packages.
+- Configure the development environment (e.g., Jupyter Notebook, Google Colab, or a local Python environment).
+- Verify the installation of dependencies and ensure compatibility with the project requirements.
+  
+#### 2. Data Collection:
+
+- Utilize the Hand-drawn Shapes (HDS) Dataset from Kaggle, which includes a diverse mix of geometric and irregular shapes created by children.
+- Digitize additional drawings if needed using a scanner or camera.
+
+#### 3. Preprocessing:
+
+- Convert images to grayscale using OpenCV’s cv2.cvtColor function to simplify processing.
+- Use thresholding (e.g., cv2.threshold) to binarize the images.
+
+#### 4. Contour Detection:
+
+- Detect contours in binarized images using cv2.findContours.
+- Filter and sort contours based on area, perimeter, or hierarchy to focus on relevant shapes.
+
+#### 5. Feature Extraction:
+
+- Calculate shape features such as aspect ratio, extent, solidity, and eccentricity.
+
+#### 6. Classification:
+
+- Group shapes into categories (e.g., geometric, irregular) using clustering algorithms or predefined thresholds.
+- Optionally, train a machine learning model with labeled data for automated classification.
+
+
+#### 7. Visualization:
+
+- Overlay detected contours on the original images using cv2.drawContours.
+- Display shape metrics (e.g., area, perimeter) as annotations.
+
+#### 8. Evaluation:
+
+- Validate the method using metrics such as accuracy, precision, and recall for shape classification.
+- Test with diverse datasets to ensure robustness and generalization.
+
+
+## Conclusion
+
+This project successfully implemented a method to extract and analyze shape features in children’s hand-drawn shapes using contour detection. Key findings include:
+
+#### Findings:
+
+- Contour-based methods effectively identify and classify geometric and irregular shapes.
+- Shape features such as aspect ratios provide meaningful metrics for categorization.
+
+#### Challenges:
+
+- Handling overlapping or poorly defined shapes required additional preprocessing.
+- Noise and variations in drawing styles posed difficulties in maintaining high classification accuracy.
+
+#### Outcomes:
+
+- Developed a pipeline for contour-based analysis of hand-drawn shapes.
+- Highlighted areas for improvement, such as integrating deep learning for enhanced feature extraction and classification.
+
+This project demonstrates the potential of computer vision techniques in analyzing creative outputs, providing a foundation for future studies in education and developmental psychology.
