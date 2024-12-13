@@ -76,12 +76,14 @@ This project successfully implemented a method to extract and analyze shape feat
 - Highlighted areas for improvement, such as integrating deep learning for enhanced feature extraction and classification.
 
 This project demonstrates the potential of computer vision techniques in analyzing creative outputs, providing a foundation for future studies in education and developmental psychology.
+### Video Demonstration:
+https://drive.google.com/file/d/1B6CUIUTUZzZWW-h_52ndpdoK4DHrArgl/view?usp=sharing
 
-#### Dataset Gdrive Link:
+### Dataset Gdrive Link:
 https://drive.google.com/drive/folders/1L0N5ZpHeD2r2VjrFlzw7UF3ZAwcl7_zQ?usp=sharing
 
-#### Google Collab Link:
+### Google Collab Link:
 https://colab.research.google.com/drive/10YXFSgrA2Rc6ObqFjc9veMKR8LmolHVL?usp=sharing
 
-#### Refference:
+## Refference:
 https://www.kaggle.com/datasets/frobert/handdrawn-shapes-hds-dataset/data
