@@ -59,6 +59,10 @@ This is the step-by-step methodology for Extracting Contours for Analyzing Shape
 After evaluating the model using test data, generate a confusion matrix to visualize the performance of the classifier in predicting the shape classes. This will help identify how often the model is confusing one class for another. The confusion matrix is plotted using Seaborn to analyze the accuracy of predictions in a visual format.
 ![image](https://github.com/user-attachments/assets/e035779a-fbc3-4dd3-bfe9-bdf0c0bb86e2)
 
+### Accuracy Test
+![image](https://github.com/user-attachments/assets/1dd252f3-1ff0-4653-a9cc-9f7e888495d5)
+
+
 
 ## Conclusion
 
