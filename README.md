@@ -84,8 +84,7 @@ This project demonstrates the potential of computer vision techniques in analyzi
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
-### Video Demonstration:
-https://drive.google.com/file/d/1B6CUIUTUZzZWW-h_52ndpdoK4DHrArgl/view?usp=sharing
+
 ```
 ```python
 from google.colab import files
@@ -275,11 +274,12 @@ for fn in uploaded.keys():
   plt.axis('off')
   plt.show()
 ```
-```python
 
 
 
 
+### Video Demonstration:
+https://drive.google.com/file/d/1B6CUIUTUZzZWW-h_52ndpdoK4DHrArgl/view?usp=sharing
 
 ### Dataset Gdrive Link:
 https://drive.google.com/drive/folders/1L0N5ZpHeD2r2VjrFlzw7UF3ZAwcl7_zQ?usp=sharing
